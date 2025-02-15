@@ -5,9 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js",
-    "postinstall": "npm rebuild bcrypt --update-binary"
-
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
